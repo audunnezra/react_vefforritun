@@ -1,3 +1,4 @@
+import React from 'react'
 var CommentForm = React.createClass({
   render: function() {
     return (
@@ -8,4 +9,4 @@ var CommentForm = React.createClass({
   }
 });
 
-export default CommentBox;
+export default CommentForm;
