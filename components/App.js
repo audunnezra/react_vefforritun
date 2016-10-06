@@ -4,8 +4,9 @@ import React from 'react'
 
 var App = React.createClass({
   render: function(){
-    return <CommentBox />
+    return <CommentBox url="/api/comments" />
   }
 });
+
 
 export default App;
